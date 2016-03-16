@@ -19,14 +19,12 @@ const DEFAULT_OPTIONS = {
 
 export default (options) => {
   options = Object.assign({}, DEFAULT_OPTIONS, options)
-
+  const configs = [
+    {ext: options.ext, type: 'file'},
+    {ext: '/index' + options.ext, type: 'directory'}
+  ]
   return async (req, res, next) => {
     const base = path.join(options.root, '.' + url.parse(req.url).pathname)
-
-    const configs = [
-      {ext: options.ext, type: 'file'},
-      {ext: '/index' + options.ext, type: 'directory'}
-    ]
     let i = 0
     while (i < configs.length && !(await fileExists(base + configs[i].ext))) {
       ++i
