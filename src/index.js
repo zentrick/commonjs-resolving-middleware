@@ -1,5 +1,5 @@
-import url from 'url'
 import fsp from 'fs-promise'
+import url from 'url'
 import path from 'path'
 
 const fileExists = async (path) => {
