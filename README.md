@@ -1,6 +1,6 @@
-# commonjs-resolving-middleware
+# middleware-resolve-commonjs
 
-[![npm](https://img.shields.io/npm/v/commonjs-resolving-middleware.svg)](https://www.npmjs.com/package/commonjs-resolving-middleware) [![Dependencies](https://img.shields.io/david/zentrick/commonjs-resolving-middleware.svg)](https://david-dm.org/zentrick/commonjs-resolving-middleware) [![Build Status](https://img.shields.io/travis/zentrick/commonjs-resolving-middleware.svg)](https://travis-ci.org/zentrick/commonjs-resolving-middleware) [![Coverage Status](https://img.shields.io/coveralls/zentrick/commonjs-resolving-middleware.svg)](https://coveralls.io/r/zentrick/commonjs-resolving-middleware) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
+[![npm](https://img.shields.io/npm/v/middleware-resolve-commonjs.svg)](https://www.npmjs.com/package/middleware-resolve-commonjs) [![Dependencies](https://img.shields.io/david/zentrick/middleware-resolve-commonjs.svg)](https://david-dm.org/zentrick/middleware-resolve-commonjs) [![Build Status](https://img.shields.io/travis/zentrick/middleware-resolve-commonjs.svg)](https://travis-ci.org/zentrick/middleware-resolve-commonjs) [![Coverage Status](https://img.shields.io/coveralls/zentrick/middleware-resolve-commonjs.svg)](https://coveralls.io/r/zentrick/middleware-resolve-commonjs) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
 Connect middleware that serves CommonJS modules.
 
