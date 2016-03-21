@@ -1,6 +1,6 @@
 {
   "name": "middleware-resolve-commonjs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Connect middleware that serves CommonJS modules.",
   "main": "index.js",
   "author": "Zentrick nv (https://www.zentrick.com/)",
